@@ -1,0 +1,35 @@
+@prefix ex:   <http://example.org/book/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ex:book1 a dbo:Book ;
+    dc:title "Semantic Web for the Working Ontologist" ;
+    dc:date "2011"^^xsd:gYear ;
+    dc:publisher "Morgan Kaufmann" ;
+    dbo:author dbr:Dean_Allemang .
+
+ex:book2 a dbo:Book ;
+    dc:title "Artificial Intelligence: A Modern Approach" ;
+    dc:date "2020"^^xsd:gYear ;
+    dc:publisher "Pearson" ;
+    dbo:author dbr:Stuart_J._Russell .
+
+ex:book3 a dbo:Book ;
+    dc:title "Programming Collective Intelligence" ;
+    dc:date "2007"^^xsd:gYear ;
+    dc:publisher "O'Reilly Media" ;
+    dbo:author dbr:Toby_Segaran .
+
+ex:book4 a dbo:Book ;
+    dc:title "Semantic Web Technologies" ;
+    dc:date "2006"^^xsd:gYear ;
+    dc:publisher "John Wiley & Sons" ;
+    dbo:author dbr:Pascal_Hitzler .
+
+ex:book5 a dbo:Book ;
+    dc:title "Linked Data: Structured Data Across the Web" ;
+    dc:date "2011"^^xsd:gYear ;
+    dc:publisher "Springer" ;
+    dbo:author dbr:Tom_Heath .
